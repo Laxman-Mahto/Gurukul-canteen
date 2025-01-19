@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Check if all fields are filled out
     if (!empty($name) && !empty($email) && !empty($message)) {
         // Set the recipient email address (replace with your email)
-        $to = "your-laxmanmahto003@gmail.com";  // Replace with your email
+        $to = "laxmanmahto003@gmail.com";  // Replace with your email
         $subject = "New message from $name";
         
         // Compose the email body
